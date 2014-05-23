@@ -1,0 +1,18 @@
+{
+  "name": "CheatSheetWorld",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-static-handlebars": "^0.9.0"
+  },
+  "readmeFilename": "README.md",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ericdrowell/CheatSheetWorld.git"
+  },
+  "author": "Eric Rowell",
+  "license": "MIT"
+}

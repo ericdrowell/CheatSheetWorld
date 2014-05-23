@@ -1,0 +1,57 @@
+{
+  "houses": [
+    {
+      "title": "Starks",
+      "image": {
+        "width": 400,
+        "height": 200,
+        "alt": "Stark Sigil",
+        "src": "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-stark-sigil.jpg"
+      },
+      "people": [
+        {
+          "name": "Eddard \"Ned\" Stark",
+          "description": "Lord of Winterfell - Warden of the North - Hand of the King - Married to Catelyn (Tully) Stark",
+          "imageSuffix": "eddard-stark",
+          "wikiSuffix": "Eddard_Stark"
+        },
+        {
+          "name": "Benjen Stark",
+          "description": "Brother of Eddard Stark - First ranger of the Night's Watch",
+          "imageSuffix": "benjen-stark",
+          "wikiSuffix": "Benjen_Stark"
+        },
+        {
+          "name": "Robb Stark",
+          "description": "Son of Eddard & Catelyn Stark - Direwolf: Grey Wind",
+          "imageSuffix": "robb-stark",
+          "wikiSuffix": "Robb_Stark"
+        },
+        {
+          "name": "",
+          "description": "",
+          "imageSuffix": "",
+          "wikiSuffix": ""
+        },
+        {
+          "name": "",
+          "description": "",
+          "imageSuffix": "",
+          "wikiSuffix": ""
+        },
+        {
+          "name": "",
+          "description": "",
+          "imageSuffix": "",
+          "wikiSuffix": ""
+        },
+        {
+          "name": "",
+          "description": "",
+          "imageSuffix": "",
+          "wikiSuffix": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<p id="intro">
+  This cheat sheet organizes the Game of Thrones characters by the house that they came from.  In order to prevent spoilers, character descriptions are based on the moment that they were introduced.
+</p>
+
+<ul id="items">
+  {{#each houses}}
+    <li class="item">
+      <h2>{{title}}</h2>  
+      {{#image}}
+        <img width="{{width}}" height="{{height}}" alt="{{alt}}" src="{{src}}">
+      {{/image}}
+      
+      {{#each people}}
+        <div class="entity">
+          <a href="http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}" target="_blank">
+            <img alt="{{alt}}" width="60" src="http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-{{imageSuffix}}.jpg">
+          </a>
+          <div class="info">
+            <h3><a href="http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}" target="_blank">{{name}}</a></h3>
+            <p>{{description}}</p>
+          </div>
+        </div>
+      {{/each}}
+    </li>
+  {{/each}}
+</ul>
