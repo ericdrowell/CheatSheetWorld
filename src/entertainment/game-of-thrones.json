@@ -130,6 +130,160 @@
           "wikiSuffix": "Myrcella_Baratheon"
         }
       ]
+    },
+
+
+
+
+    {
+      "name": "Targaryens",
+      "wikiSuffix": "House_Targaryen",
+      "imageHeight": 280,
+      "imageSuffix": "targaryen-sigil",
+      "people": [
+        {
+          "name": "Daenerys Targaryen",
+          "description": "Stormborn - Khaleesi of the Dothraki - The Unburnt - Mother of Dragons - Daughter of Aerys II Targaryen \"The Mad King\"",
+          "imageSuffix": "daenerys-targaryen",
+          "wikiSuffix": "Daenerys_Targaryen"
+        },
+        {
+          "name": "Viserys Targaryen",
+          "description": "The Beggar King - Son of Aerys II Targaryen \"The Mad King\"",
+          "imageSuffix": "viserys-targaryen",
+          "wikiSuffix": "Viserys_Targaryen"
+        }
+      ]
+    },
+
+
+
+    {
+      "name": "Greyjoys",
+      "wikiSuffix": "House_Greyjoy",
+      "imageHeight": 263,
+      "imageSuffix": "greyjoy-sigil",
+      "people": [
+        {
+          "name": "Balon Greyjoy",
+          "description": "Lord Reaper of Pyke - Head of House Greyjoy",
+          "imageSuffix": "balon-greyjoy",
+          "wikiSuffix": "Balon_Greyjoy"
+        },
+        {
+          "name": "Theon Greyjoy",
+          "description": "Ward of the Starks - Heir to the Iron Islands - Son of Balon Greyjoy",
+          "imageSuffix": "theon-greyjoy",
+          "wikiSuffix": "Theon_Greyjoy"
+        },
+        {
+          "name": "Yara Greyjoy",
+          "description": "Ironborn - Son of Balon Greyjoy",
+          "imageSuffix": "yara-greyjoy",
+          "wikiSuffix": "Yara_Greyjoy"
+        }
+
+      ]
+    },
+
+    {
+      "name": "Tyrells",
+      "wikiSuffix": "House_Tyrell",
+      "imageHeight": 255,
+      "imageSuffix": "tyrell-sigil",
+      "people": [
+        {
+          "name": "Margaery (Tyrell) Baratheon",
+          "description": "Widow of Renly Baratheon - Sister of Loras Tyrell - Granddaughter of Olenna Tyrell",
+          "imageSuffix": "margaery-tyrell",
+          "wikiSuffix": "Margaery_Tyrell"
+        },
+        {
+          "name": "Loras Tyrell",
+          "description": "Heir to Highgarden - Commander of the Kings Gaurd - Brother of Margaery Baratheon",
+          "imageSuffix": "loras-tyrell",
+          "wikiSuffix": "Loras_Tyrell"
+        }
+
+      ]
+    },
+
+    {
+      "name": "Tullys",
+      "wikiSuffix": "House_Tully",
+      "imageHeight": 216,
+      "imageSuffix": "tully-sigil",
+      "people": [
+        {
+          "name": "Catelyn (Tully) Stark",
+          "description": "Married to Eddard StarkLysa (Tully) Arryn",
+          "imageSuffix": "catelyn-tully",
+          "wikiSuffix": "Catelyn_Tully"
+        },
+        {
+          "name": "Lysa (Tully) Arryn",
+          "description": "Widow of Jon Arryn",
+          "imageSuffix": "lysa-tully",
+          "wikiSuffix": "Lysa_Tully"
+        }
+
+      ]
+    },
+
+    {
+      "name": "Redwyne",
+      "wikiSuffix": "House_Redwyne",
+      "people": [
+        {
+          "name": "Olenna (Redwyne) Tyrell",
+          "description": "Matriarch of House Tyrell - Queen of Thorns",
+          "imageSuffix": "olenna-tyrell",
+          "wikiSuffix": "Olenna_Tyrell"
+        }
+
+      ]
+    },
+
+    {
+      "name": "Freys",
+      "wikiSuffix": "House_Freys",
+      "people": [
+        {
+          "name": "Walder Frey",
+          "description": "Lord of the Crossing - Head of House Frey",
+          "imageSuffix": "walder-frey",
+          "wikiSuffix": "Walder_Frey"
+        }
+
+      ]
+    },
+
+    {
+      "name": "Arryns",
+      "wikiSuffix": "House_Arryns",
+      "people": [
+        {
+          "name": "Jon Arryn",
+          "description": "Lord of the Eyrie - Head of House Arryn - Warden of the East - Defender of the Vale",
+          "imageSuffix": "jon-arryn",
+          "wikiSuffix": "Jon_Arryn"
+        }
+
+      ]
+    },
+
+    {
+      "name": "Dothrakis",
+      "wikiSuffix": "House_Dothrakis",
+      "people": [
+        {
+          "name": "",
+          "description": "",
+          "imageSuffix": "",
+          "wikiSuffix": ""
+        }
+
+      ]
     }
 
   ]

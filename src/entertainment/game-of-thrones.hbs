@@ -6,9 +6,11 @@
   {{#each houses}}
     <li class="item">
       <h2>{{name}}</h2>  
-      <a href="http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}" target="_blank" alt="{{name}}">
-        <img width="400" height="{{imageHeight}}" alt="{{name}}" src="http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-{{imageSuffix}}.jpg">
-      </a>
+      {{#if imageSuffix}}
+        <a href="http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}" target="_blank" alt="{{name}}">
+          <img width="400" height="{{imageHeight}}" alt="{{name}}" src="http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-{{imageSuffix}}.jpg">
+        </a>
+      {{/if}}
       {{#each people}}
         <div class="entity">
           <a href="http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}" target="_blank">
