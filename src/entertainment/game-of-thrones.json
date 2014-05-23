@@ -1,13 +1,10 @@
 {
   "houses": [
     {
-      "title": "Starks",
-      "image": {
-        "width": 400,
-        "height": 200,
-        "alt": "Stark Sigil",
-        "src": "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-stark-sigil.jpg"
-      },
+      "name": "Starks",
+      "wikiSuffix": "House_Stark",
+      "imageHeight": 200,
+      "imageSuffix": "stark-sigil",
       "people": [
         {
           "name": "Eddard \"Ned\" Stark",
@@ -28,30 +25,112 @@
           "wikiSuffix": "Robb_Stark"
         },
         {
-          "name": "",
-          "description": "",
-          "imageSuffix": "",
-          "wikiSuffix": ""
+          "name": "Sansa Stark",
+          "description": "Daughter of Eddard & Catelyn Stark - Direwolf: Lady",
+          "imageSuffix": "sansa-stark",
+          "wikiSuffix": "Sansa_Stark"
         },
         {
-          "name": "",
-          "description": "",
-          "imageSuffix": "",
-          "wikiSuffix": ""
+          "name": "Arya Stark",
+          "description": "Daughter of Eddard & Catelyn Stark - Direwolf: Nymeria",
+          "imageSuffix": "arya-stark",
+          "wikiSuffix": "Arya_Stark"
         },
         {
-          "name": "",
-          "description": "",
-          "imageSuffix": "",
-          "wikiSuffix": ""
+          "name": "Brandon \"Bran\" Stark",
+          "description": "Son of Eddard & Catelyn Stark - Direwolf: Shaggydog",
+          "imageSuffix": "brandon-stark",
+          "wikiSuffix": "Brandon_Stark"
         },
         {
-          "name": "",
-          "description": "",
-          "imageSuffix": "",
-          "wikiSuffix": ""
+          "name": "Rickon Stark",
+          "description": "Son of Eddard & Catelyn Stark - Direwolf: Shaggydog",
+          "imageSuffix": "rickon-stark",
+          "wikiSuffix": "Rickon_Stark"
+        }
+      ]
+    },
+
+
+
+    {
+      "name": "Lannisters",
+      "wikiSuffix": "House_Lannister",
+      "imageHeight": 241,
+      "imageSuffix": "lannister-sigil",
+      "people": [
+        {
+          "name": "Tywin Lannister",
+          "description": "Lord of Casterly Rock - Warden of the West",
+          "imageSuffix": "tywin-lannister",
+          "wikiSuffix": "Tywin_Lannister"
+        },
+        {
+          "name": "Tyrion Lannister",
+          "description": "Son of Tywin Lannister - The Imp",
+          "imageSuffix": "tyrion-lannister",
+          "wikiSuffix": "Tyrion_Lannister"
+        },
+        {
+          "name": "Jaime Lannister",
+          "description": "The Kingslayer - Knight of the Kingsgaurd - Son of Tywin Lannister",
+          "imageSuffix": "jaime-lannister",
+          "wikiSuffix": "Jaime_Lannister"
+        },
+        {
+          "name": "Queen Cersei (Lannister) Baratheon",
+          "description": "Married to King Robert Baratheon - Daughter of Tywin Lannister",
+          "imageSuffix": "cersei-lannister",
+          "wikiSuffix": "Cersei_Lannister"
+        }
+      ]
+    },
+
+
+    {
+      "name": "Baratheons",
+      "wikiSuffix": "House_Baratheon",
+      "imageHeight": 262,
+      "imageSuffix": "baratheon-sigil",
+      "people": [
+        {
+          "name": "King Robert Baratheon",
+          "description": "The first of his name - Lord of the Seven Kingdoms",
+          "imageSuffix": "robert-baratheon",
+          "wikiSuffix": "Robert_Baratheon"
+        },
+        {
+          "name": "Stannis Baratheon",
+          "description": "Lord of Dragonstone - Master of Ships - Brother of Robert Baratheon",
+          "imageSuffix": "stannis-baratheon",
+          "wikiSuffix": "Stannis_Baratheon"
+        },
+        {
+          "name": "Renly Baratheon",
+          "description": "Lord of Storm's End - Master of Laws - Brother of Robert Baratheon",
+          "imageSuffix": "renly-baratheon",
+          "wikiSuffix": "Renly_Baratheon"
+        },
+        {
+          "name": "Joffrey Baratheon",
+          "description": "Heir to the Iron Throne - Son of Robert and Cersei Baratheon",
+          "imageSuffix": "joffrey-baratheon",
+          "wikiSuffix": "Joffrey_Baratheon"
+        },
+        {
+          "name": "Tommen Baratheon",
+          "description": "Son of Robert and Cersei Baratheon",
+          "imageSuffix": "tommen-baratheon",
+          "wikiSuffix": "Tommen_Baratheon"
+        },
+        {
+          "name": "Myrcella Baratheon",
+          "description": "Daughter of Robert and Cersei Baratheon",
+          "imageSuffix": "myrcella-baratheon",
+          "wikiSuffix": "Myrcella_Baratheon"
         }
       ]
     }
+
   ]
 }
