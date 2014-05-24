@@ -20,33 +20,39 @@
         },
         {
           "name": "Robb Stark",
-          "description": "Son of Eddard & Catelyn Stark - Direwolf: Grey Wind",
+          "description": "Son of Eddard and Catelyn Stark - Direwolf: Grey Wind",
           "imageSuffix": "robb-stark",
           "wikiSuffix": "Robb_Stark"
         },
         {
           "name": "Sansa Stark",
-          "description": "Daughter of Eddard & Catelyn Stark - Direwolf: Lady",
+          "description": "Daughter of Eddard and Catelyn Stark - Direwolf: Lady",
           "imageSuffix": "sansa-stark",
           "wikiSuffix": "Sansa_Stark"
         },
         {
           "name": "Arya Stark",
-          "description": "Daughter of Eddard & Catelyn Stark - Direwolf: Nymeria",
+          "description": "Daughter of Eddard and Catelyn Stark - Direwolf: Nymeria",
           "imageSuffix": "arya-stark",
           "wikiSuffix": "Arya_Stark"
         },
         {
           "name": "Brandon \"Bran\" Stark",
-          "description": "Son of Eddard & Catelyn Stark - Direwolf: Shaggydog",
+          "description": "Son of Eddard and Catelyn Stark - Direwolf: Summer",
           "imageSuffix": "brandon-stark",
           "wikiSuffix": "Brandon_Stark"
         },
         {
           "name": "Rickon Stark",
-          "description": "Son of Eddard & Catelyn Stark - Direwolf: Shaggydog",
+          "description": "Son of Eddard and Catelyn Stark - Direwolf: Shaggydog",
           "imageSuffix": "rickon-stark",
           "wikiSuffix": "Rickon_Stark"
+        },
+        {
+          "name": "Jon Snow",
+          "description": "Bastard son of Eddard Stark - Steweard in the Night's Watch - Direwolf: Ghost",
+          "imageSuffix": "jon-snow",
+          "wikiSuffix": "Jon_Snow"
         }
       ]
     },
@@ -216,15 +222,27 @@
       "people": [
         {
           "name": "Catelyn (Tully) Stark",
-          "description": "Married to Eddard StarkLysa (Tully) Arryn",
+          "description": "Married to Eddard Stark - Daughter of Hoster Tully",
           "imageSuffix": "catelyn-tully",
           "wikiSuffix": "Catelyn_Tully"
         },
         {
           "name": "Lysa (Tully) Arryn",
-          "description": "Widow of Jon Arryn",
+          "description": "Widow of Jon Arryn - Daughter of Hoster Tully",
           "imageSuffix": "lysa-tully",
           "wikiSuffix": "Lysa_Tully"
+        },
+        {
+          "name": "Edmure Tully",
+          "description": "Heir to Riverrun - Son of Hoster Tully",
+          "imageSuffix": "edmure-tully",
+          "wikiSuffix": "Edmure_Tully"
+        },
+        {
+          "name": "Brynden Tully",
+          "description": "Lord of Riverrun - Head of House Tully - Brother of Hoster Tully",
+          "imageSuffix": "brynden-tully",
+          "wikiSuffix": "Brynden_Tully"
         }
 
       ]
@@ -277,10 +295,10 @@
       "wikiSuffix": "House_Dothrakis",
       "people": [
         {
-          "name": "",
-          "description": "",
-          "imageSuffix": "",
-          "wikiSuffix": ""
+          "name": "Khal Drogo",
+          "description": "Leader of the Dothraki people - Dothraki Warlord - Married to Daenerys Targaryen",
+          "imageSuffix": "khal-drogo",
+          "wikiSuffix": "Drogo"
         }
 
       ]
