@@ -1,0 +1,226 @@
+{
+  "sections": [
+    {
+      "title": "File System",
+      "commands": [
+        {
+          "command": "ls",
+          "description": "list items in current directory"
+        },
+        {
+          "command": "ls -l",
+          "description": "list items in current directory and show in long format"
+        },
+        {
+          "command": "ls -a",
+          "description": "list all items in current directory, including hidden files"
+        },
+        {
+          "command": "cd dir",
+          "description": "change directory to dir"
+        },
+        {
+          "command": "pwd",
+          "description": "show present working directory"
+        },
+        {
+          "command": "mkdir dir",
+          "description": "make directory dir"
+        },
+        {
+          "command": "rm file",
+          "description": "remove file"
+        },
+        {
+          "command": "rm -r dir",
+          "description": "remove directory dir recursively"
+        },
+        {
+          "command": "cp file1 file2",
+          "description": "copy file1 to file2"
+        },
+        {
+          "command": "cp -r dir1 dir2",
+          "description": "copy directory dir1 to dir2 recursively"
+        },
+        {
+          "command": "mv file1 file2",
+          "description": "move (rename) file1 to file2"
+        },
+        {
+          "command": "ln -s file link",
+          "description": "create symbolic link to file"
+        },
+        {
+          "command": "touch file",
+          "description": "create or update file"
+        },
+        {
+          "command": "more file",
+          "description": "output the contents of file"
+        },
+        {
+          "command": "head file",
+          "description": "output the first 10 lines of file"
+        },
+        {
+          "command": "tail file",
+          "description": "output the last 10 lines of file"
+        },
+        {
+          "command": "tail -f file",
+          "description": "output the contents of file as it grows, starting with the last 10 lines"
+        }
+      ]
+    },
+    {
+      "title": "System Info",
+      "commands": [
+        {
+          "command": "date",
+          "description": "show the current date and time"
+        },
+        {
+          "command": "whoami",
+          "description": "who you are logged in as"
+        },
+        {
+          "command": "finger user",
+          "description": "display information about user"
+        },
+        {
+          "command": "man command",
+          "description": "show the manual for command"
+        },
+        {
+          "command": "df",
+          "description": "show disk usage"
+        },
+        {
+          "command": "du",
+          "description": "show directory space usage"
+        },
+        {
+          "command": "free",
+          "description": "show memory and swap usage"
+        },
+        {
+          "command": "whereis app",
+          "description": "show possible locations of app"
+        },
+        {
+          "command": "which app",
+          "description": "show which app will be run by default"
+        }
+      ]
+    },
+    {
+      "title": "Process Management",
+      "commands": [
+        {
+          "command": "ps",
+          "description": "display your currently active processes"
+        },
+        {
+          "command": "top",
+          "description": "display all running processes"
+        },
+        {
+          "command": "kill pid",
+          "description": "kill process id pid"
+        },
+        {
+          "command": "kill -9 pid",
+          "description": "force kill process id pid"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "commands": [
+        {
+          "command": "ping host",
+          "description": "ping host and output results"
+        },
+        {
+          "command": "whois domain",
+          "description": "get information for domain"
+        },
+        {
+          "command": "dig domain",
+          "description": "get DNS information for domain"
+        },
+        {
+          "command": "dig -x host",
+          "description": "reverse lookup host"
+        },
+        {
+          "command": "wget file",
+          "description": "download file"
+        },
+        {
+          "command": "lsof -i tcp:1337",
+          "description": "list all processes running on port 1337"
+        }
+      ]
+    },
+    {
+      "title": "Searching",
+      "commands": [
+        {
+          "command": "grep pattern files",
+          "description": "search for pattern in files"
+        },
+        {
+          "command": "grep -r pattern dir",
+          "description": "search recursively for pattern in dir"
+        },
+        {
+          "command": "command | grep pattern",
+          "description": "search for pattern in the output of command"
+        },
+        {
+          "command": "find file",
+          "description": "find all instances of file in real system"
+        },
+        {
+          "command": "locate file",
+          "description": "find all instances of file using indexed database built from the updatedb command.  Much faster than find"
+        }
+      ]
+    },
+    {
+      "title": "Compression",
+      "commands": [
+        {
+          "command": "tar cf file.tar files",
+          "description": "create a tar named file.tar containing files"
+        },
+        {
+          "command": "tar xf file.tar",
+          "description": "extract the files from file.tar"
+        },
+        {
+          "command": "tar czf file.tar.gz files",
+          "description": "create a tar with Gzip compression"
+        },
+        {
+          "command": "tar xzf file.tar.gz",
+          "description": "extract a tar using Gzip"
+        },
+        {
+          "command": "gzip file",
+          "description": "compresses file and renames it to file.gz"
+        },
+        {
+          "command": "gzip -d file.gz",
+          "description": "decompresses file.gz back to file"
+        }
+
+
+     
+ 
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<ul id="items">
+  {{#each sections}}
+    <li class="item">
+      <h2>{{title}}</h2>
+   
+      {{#each commands}}
+        <p><code>{{command}}</code> - {{description}}</p>
+      {{/each}}
+    </li>
+  {{/each}}
+</ul>
