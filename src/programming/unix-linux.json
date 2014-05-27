@@ -346,7 +346,7 @@
       "commands": [
         {
           "command": "scp remote@server:\"'/User/username/workspace/foo.js'\" ~/Downloads",
-          "description": "copies foo.js from a remote server and then places it in you're Downloads directory"
+          "description": "copies foo.js from a remote server and then places it in your Downloads directory"
         },
         {
           "command": "curl http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js > ~/Downloads/backbone.1.1.2.min.js",
