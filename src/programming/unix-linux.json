@@ -340,6 +340,40 @@
           "description": "create an alias for a command"
         }
       ]
+    },
+    {
+      "title": "Copying Files",
+      "commands": [
+        {
+          "command": "scp remote@server:\"'/User/username/workspace/foo.js'\" ~/Downloads",
+          "description": "copies foo.js from a remote server and then places it in you're Downloads directory"
+        },
+        {
+          "command": "curl http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js > ~/Downloads/backbone.1.1.2.min.js",
+          "description": "takes the standard output from a curl and redirects it to a file"
+        }
+      ]
+    },
+    {
+      "title": "Movement",
+      "commands": [
+        {
+          "command": "ctrl+a",
+          "description": "beginning of line"
+        },
+        {
+          "command": "ctrl+f",
+          "description": "end of line"
+        },
+        {
+          "command": "alt+f",
+          "description": "forward 1 word"
+        },
+        {
+          "command": "alt+b",
+          "description": "back 1 word"
+        }
+      ]
     }
   ]
 }
