@@ -102,6 +102,10 @@
         {
           "command": "vim file",
           "description": "edit file"
+        },
+        {
+          "command": "alias name 'command'",
+          "description": "create an alias for a command"
         }
       ]
     },
@@ -346,10 +350,6 @@
     {
       "title": "Shortcuts ",
       "commands": [
-        {
-          "command": "alias name 'command'",
-          "description": "create an alias for a command"
-        },
         {
           "command": "ctrl+a",
           "description": "move cursor to beginning of line"
