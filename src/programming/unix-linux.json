@@ -252,6 +252,18 @@
           "description": "secure copy the directory dir from remote server to the directory dir on your machine"
         },
         {
+          "command": "ssh user@host",
+          "description": "connect to host as user"
+        },
+        {
+          "command": "ssh -p port user@host",
+          "description": "connect to host on port as user"
+        },
+        {
+          "command": "ssh-copy-id user@host",
+          "description": "add your key to host for user to enable a keyed or passwordless login"
+        },
+        {
           "command": "ping host",
           "description": "ping host and output results"
         },
@@ -270,18 +282,6 @@
         {
           "command": "lsof -i tcp:1337",
           "description": "list all processes running on port 1337"
-        },
-        {
-          "command": "ssh user@host",
-          "description": "connect to host as user"
-        },
-        {
-          "command": "ssh -p port user@host",
-          "description": "connect to host on port as user"
-        },
-        {
-          "command": "ssh-copy-id user@host",
-          "description": "add your key to host for user to enable a keyed or passwordless login"
         }
       ]
     },
