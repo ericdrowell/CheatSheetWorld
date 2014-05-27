@@ -9,15 +9,39 @@
         },
         {
           "command": "ls -l",
-          "description": "list items in current directory and show in long format"
+          "description": "list items in current directory and show in long format to see perimissions, size, and modification date"
         },
         {
           "command": "ls -a",
           "description": "list all items in current directory, including hidden files"
         },
         {
+          "command": "ls -F",
+          "description": "list all items in current directory and show directories with a slash and executables with a star"
+        },
+        {
+          "command": "ls dir",
+          "description": "list all items in directory dir"
+        },
+        {
           "command": "cd dir",
           "description": "change directory to dir"
+        },
+        {
+          "command": "cd ..",
+          "description": "go up one directory"
+        },
+        {
+          "command": "cd /",
+          "description": "go to the root directory"
+        },
+        {
+          "command": "cd ~",
+          "description": "go to to your home directory"
+        },
+        {
+          "command": "cd -",
+          "description": "go to the last directory you were just in"
         },
         {
           "command": "pwd",
@@ -56,8 +80,12 @@
           "description": "create or update file"
         },
         {
-          "command": "more file",
+          "command": "cat file",
           "description": "output the contents of file"
+        },
+        {
+          "command": "less file",
+          "description": "view file with page navigation"
         },
         {
           "command": "head file",
@@ -70,6 +98,10 @@
         {
           "command": "tail -f file",
           "description": "output the contents of file as it grows, starting with the last 10 lines"
+        },
+        {
+          "command": "vim file",
+          "description": "edit file"
         }
       ]
     },
@@ -136,6 +168,67 @@
       ]
     },
     {
+      "title": "Permissions",
+      "commands": [
+        {
+          "command": "ls -l",
+          "description": "list items in current directory and show permissions"
+        },
+        {
+          "command": "chmod ugo file",
+          "description": "change permissions of file to ugo - u is the user's permissions, g is the group's permissions, and o is everyone else's permissions.  The values of u, g, and o can be any number between 0 and 7."
+        },
+        {
+          "command": 7,
+          "description": "full permissions"
+        },
+        {
+          "command": 6,
+          "description": "read and write only"
+        },
+        {
+          "command": 5,
+          "description": "read and execute only"
+        },
+        {
+          "command": 4,
+          "description": "read only"
+        },
+        {
+          "command": 3,
+          "description": "write and execute only"
+        },
+        {
+          "command": 2,
+          "description": "write only"
+        },
+        {
+          "command": 1,
+          "description": "execute only"
+        },
+        {
+          "command": 0,
+          "description": "no permissions"
+        },
+        {
+          "command": "chmod 600 file",
+          "description": "you can read and write - good for files"
+        },
+        {
+          "command": "chmod 700 file",
+          "description": "you can read, write, and execute - good for scripts"
+        },
+        {
+          "command": "chmod 644 file",
+          "description": "you can read and write, and everyone else can only read - good for web pages"
+        },
+        {
+          "command": "chmod 755 file",
+          "description": "you can read, write, and execute, and everyone else can read and execute - good for programs that you want to share"
+        }
+      ]
+    },
+    {
       "title": "Networking",
       "commands": [
         {
@@ -186,6 +279,10 @@
         {
           "command": "locate file",
           "description": "find all instances of file using indexed database built from the updatedb command.  Much faster than find"
+        },
+        {
+          "command": "sed 's/day/night/g' file",
+          "description": "find all occurrences of day in a file and replace them with night - s means substitude and g means global - sed also supports regular expressions"
         }
       ]
     },
@@ -216,10 +313,32 @@
           "command": "gzip -d file.gz",
           "description": "decompresses file.gz back to file"
         }
-
-
-     
- 
+      ]
+    },
+    {
+      "title": "SSH",
+      "commands": [
+        {
+          "command": "ssh user@host",
+          "description": "connect to host as user"
+        },
+        {
+          "command": "ssh -p port user@host",
+          "description": "connect to host on port as user"
+        },
+        {
+          "command": "ssh-copy-id user@host",
+          "description": "add your key to host for user to enable a keyed or passwordless login"
+        }
+      ]
+    },
+    {
+      "title": "Shortcuts ",
+      "commands": [
+        {
+          "command": "alias name 'command'",
+          "description": "create an alias for a command"
+        }
       ]
     }
   ]
