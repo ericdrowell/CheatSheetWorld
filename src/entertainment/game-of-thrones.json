@@ -3,8 +3,6 @@
     {
       "name": "Starks",
       "wikiSuffix": "House_Stark",
-      "imageHeight": 200,
-      "imageSuffix": "stark-sigil",
       "people": [
         {
           "name": "Eddard \"Ned\" Stark",
@@ -62,8 +60,6 @@
     {
       "name": "Lannisters",
       "wikiSuffix": "House_Lannister",
-      "imageHeight": 241,
-      "imageSuffix": "lannister-sigil",
       "people": [
         {
           "name": "Tywin Lannister",
@@ -96,8 +92,6 @@
     {
       "name": "Baratheons",
       "wikiSuffix": "House_Baratheon",
-      "imageHeight": 262,
-      "imageSuffix": "baratheon-sigil",
       "people": [
         {
           "name": "King Robert Baratheon",
@@ -144,8 +138,6 @@
     {
       "name": "Targaryens",
       "wikiSuffix": "House_Targaryen",
-      "imageHeight": 280,
-      "imageSuffix": "targaryen-sigil",
       "people": [
         {
           "name": "Daenerys Targaryen",
@@ -167,8 +159,6 @@
     {
       "name": "Greyjoys",
       "wikiSuffix": "House_Greyjoy",
-      "imageHeight": 263,
-      "imageSuffix": "greyjoy-sigil",
       "people": [
         {
           "name": "Balon Greyjoy",
@@ -195,8 +185,6 @@
     {
       "name": "Tyrells",
       "wikiSuffix": "House_Tyrell",
-      "imageHeight": 255,
-      "imageSuffix": "tyrell-sigil",
       "people": [
         {
           "name": "Margaery (Tyrell) Baratheon",
@@ -217,8 +205,6 @@
     {
       "name": "Tullys",
       "wikiSuffix": "House_Tully",
-      "imageHeight": 216,
-      "imageSuffix": "tully-sigil",
       "people": [
         {
           "name": "Catelyn (Tully) Stark",
