@@ -232,6 +232,26 @@
       "title": "Networking",
       "commands": [
         {
+          "command": "wget file",
+          "description": "download a file"
+        },
+        {
+          "command": "curl file",
+          "description": "download a file"
+        },
+        {
+          "command": "scp user@host:file dir",
+          "description": "secure copy a file from remote server to the dir directory on your machine"
+        },
+        {
+          "command": "scp file user@host:dir",
+          "description": "secure copy a file from your machine to the dir directory on a remote server"
+        },
+        {
+          "command": "scp -r user@host:dir dir",
+          "description": "secure copy the directory dir from remote server to the directory dir on your machine"
+        },
+        {
           "command": "ping host",
           "description": "ping host and output results"
         },
@@ -248,12 +268,20 @@
           "description": "reverse lookup host"
         },
         {
-          "command": "wget file",
-          "description": "download file"
-        },
-        {
           "command": "lsof -i tcp:1337",
           "description": "list all processes running on port 1337"
+        },
+        {
+          "command": "ssh user@host",
+          "description": "connect to host as user"
+        },
+        {
+          "command": "ssh -p port user@host",
+          "description": "connect to host on port as user"
+        },
+        {
+          "command": "ssh-copy-id user@host",
+          "description": "add your key to host for user to enable a keyed or passwordless login"
         }
       ]
     },
@@ -316,62 +344,27 @@
       ]
     },
     {
-      "title": "SSH",
-      "commands": [
-        {
-          "command": "ssh user@host",
-          "description": "connect to host as user"
-        },
-        {
-          "command": "ssh -p port user@host",
-          "description": "connect to host on port as user"
-        },
-        {
-          "command": "ssh-copy-id user@host",
-          "description": "add your key to host for user to enable a keyed or passwordless login"
-        }
-      ]
-    },
-    {
       "title": "Shortcuts ",
       "commands": [
         {
           "command": "alias name 'command'",
           "description": "create an alias for a command"
-        }
-      ]
-    },
-    {
-      "title": "Copying Files",
-      "commands": [
-        {
-          "command": "scp remote@server:\"'/User/username/workspace/foo.js'\" ~/Downloads",
-          "description": "copies foo.js from a remote server and then places it in you're Downloads directory"
         },
         {
-          "command": "curl http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js > ~/Downloads/backbone.1.1.2.min.js",
-          "description": "takes the standard output from a curl and redirects it to a file"
-        }
-      ]
-    },
-    {
-      "title": "Cursor Movement",
-      "commands": [
-        {
           "command": "ctrl+a",
-          "description": "beginning of line"
+          "description": "move cursor to beginning of line"
         },
         {
           "command": "ctrl+f",
-          "description": "end of line"
+          "description": "move cursor to end of line"
         },
         {
           "command": "alt+f",
-          "description": "forward 1 word"
+          "description": "move cursor forward 1 word"
         },
         {
           "command": "alt+b",
-          "description": "back 1 word"
+          "description": "move cursor backward 1 word"
         }
       ]
     }
