@@ -355,7 +355,7 @@
       ]
     },
     {
-      "title": "Movement",
+      "title": "Cursor Movement",
       "commands": [
         {
           "command": "ctrl+a",
