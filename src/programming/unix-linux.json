@@ -110,6 +110,19 @@
       ]
     },
     {
+      "title": "System",
+      "commands": [
+        {
+          "command": "sudo init 0",
+          "description": "shut down machine"
+        },
+        {
+          "command": "sudo init 6",
+          "description": "restart machine"
+        }
+      ]
+    },
+    {
       "title": "System Info",
       "commands": [
         {
@@ -299,6 +312,14 @@
         {
           "command": "grep -r pattern dir",
           "description": "search recursively for pattern in dir"
+        },
+        {
+          "command": "grep -rn pattern dir",
+          "description": "search recursively for pattern in dir and show the line number found"
+        },
+        {
+          "command": "grep -r pattern dir --include='*.ext",
+          "description": "search recursively for pattern in dir and only search in files with .ext extension"
         },
         {
           "command": "command | grep pattern",
