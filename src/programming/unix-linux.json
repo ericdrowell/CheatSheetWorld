@@ -313,7 +313,7 @@
           "description": "find all instances of file using indexed database built from the updatedb command.  Much faster than find"
         },
         {
-          "command": "sed 's/day/night/g' file",
+          "command": "sed -i 's/day/night/g' file",
           "description": "find all occurrences of day in a file and replace them with night - s means substitude and g means global - sed also supports regular expressions"
         }
       ]
