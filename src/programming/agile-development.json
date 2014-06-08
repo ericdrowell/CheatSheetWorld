@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "title": "Team Members",
+      "terms": [
+        {
+          "term": "Scrum Master",
+          "definition": "stuff"
+        },
+        {
+          "term": "Product Owner",
+          "definition": "stuff"         
+        },
+        {
+          "term": "Software Engineer",
+          "definition": "stuff"         
+        },
+        {
+          "term": "Quality Engineer (QE)",
+          "definition": "stuff"         
+        }
+      ]
+    },
+    {
+      "title" :"Meetings",
+      "terms": [
+        {
+          "term": "Backlog Grooming",
+          "definition": "stuff"
+        },
+        {
+          "term": "Sprint Planning",
+          "definition": "stuff"
+        },
+        {
+          "term": "Planning Poker",
+          "definition": "stuff"
+        },
+        {
+          "term": "Daily Standup",
+          "definition": "stuff"
+        },
+        {
+          "term": "Demo Day (Sprint Review)",
+          "definition": "stuff"
+        }
+      ]
+    },
+    {
+      "title": "Units of Work",
+      "terms": [
+        {
+          "term": "Epic",
+          "definition": "stuff"
+        },
+        {
+          "term": "Sprint",
+          "definition": "stuff"
+        },
+        {
+          "term": "Story",
+          "definition": "stuff"
+        },
+        {
+          "term": "Task",
+          "definition": "stuff"
+        },
+        {
+          "term": "Subtask",
+          "definition": "stuff"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "terms": [
+        {
+          "term": "Unit Test",
+          "definition": "stuff"
+        },
+        {
+          "term": "Functional Test",
+          "definition": "stuff"
+        },
+        {
+          "term": "Integration Test",
+          "definition": "stuff"
+        },
+        {
+          "term": "Regression Test",
+          "definition": "stuff"
+        },
+        {
+          "term": "Smoke Test",
+          "definition": "stuff"
+        },
+        {
+          "term": "Manual Test",
+          "definition": "stuff"
+        },
+        {
+          "term": "Continuous Integration",
+          "definition": "stuff"
+        }
+      ]
+    },
+    {
+      "title": "Task States",
+      "terms": [
+        {
+          "term": "Pending",
+          "definition": "stuff"
+        },
+        {
+          "term": "Work In Progress (WIP)",
+          "definition": "stuff"
+        },
+        {
+          "term": "Code Complete and In Review",
+          "definition": "stuff"
+        },
+        {
+          "term": "Done",
+          "definition": "stuff"
+        }
+      ]
+    }
+  ]
+}

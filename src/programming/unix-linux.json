@@ -113,18 +113,13 @@
       "title": "System",
       "commands": [
         {
-          "command": "sudo init 0",
+          "command": "shutdown",
           "description": "shut down machine"
         },
         {
-          "command": "sudo init 6",
+          "command": "reboot",
           "description": "restart machine"
-        }
-      ]
-    },
-    {
-      "title": "System Info",
-      "commands": [
+        },
         {
           "command": "date",
           "description": "show the current date and time"
