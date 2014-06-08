@@ -51,7 +51,7 @@
       "terms": [
         {
           "term": "Epic",
-          "definition": "Placeholders for big ideas which could take months to complete.  For example, creating a new website.  Epics can be broken down into user stories."
+          "definition": "Grand vision which could take months to complete.  For example, creating a new website.  Epics can be broken down into user stories."
         },
         {
           "term": "Sprint",
@@ -75,11 +75,11 @@
       "title": "Testing",
       "terms": [
         {
-          "term": "Test Driven Development",
+          "term": "Test Driven Development (TDD)",
           "definition": "A method of testing software in which the tests are written before the software is built."
         },
         {
-          "term": "Behavior Driven Development",
+          "term": "Behavior Driven Development (BDD)",
           "definition": "A method of testing software in which the tests are written after the software is built."
         },
         {
@@ -131,6 +131,23 @@
           "term": "Done",
           "definition": "The task is completed.  The definition of \"done\" can vary from team to team, which may depend on factors such as the existence of tests written by the engineer or QE, whether or not the task has been committed to the shared code repository, etc.  Whatever your definition of \"done\" is, make sure that the definition is clear to the entire team."
         } 
+      ]
+    },
+    {
+      "title": "Tools",
+      "terms": [
+        {
+          "term": "Burndown Chart",
+          "definition": "Line chart trending downwards from 100% to 0% work remaining on the y axis, and from the sprint start date to the sprint end date on the x axis.  Ideally, sprints should end with the work remaining at 0%.  If it's not, this may indicate that the team members need to improve estimates."
+        },
+        {
+          "term": "Burnup Chart",
+          "definition": "Opposite of Burndown Chart.  Line chart trending upwards from 0% to 100% work completed on the y axis, and from the sprint start date to the sprint end date on the x axis.  Ideally, sprints should end with the work completed at 100%.  If it's not, this may indicate that the team members need to improve estimates."
+        },
+        {
+          "term": "Task Board",
+          "definition": "A board that organizes the tasks and their states for each team member, including tasks that are Pending, Work In Progress, Code Complete and In Review, and Done.  This can be achieved with a physical board and sticky notes or with a software tool."
+        }
       ]
     }
   ]
