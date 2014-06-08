@@ -137,16 +137,16 @@
       "title": "Tools",
       "terms": [
         {
+          "term": "Task Board",
+          "definition": "A board that organizes the tasks and their states for each team member, including tasks that are Pending, Work In Progress, Code Complete and In Review, and Done.  This can be achieved with a physical board and sticky notes or with a software tool."
+        },
+        {
           "term": "Burndown Chart",
           "definition": "Line chart trending downwards from 100% to 0% work remaining on the y axis, and from the sprint start date to the sprint end date on the x axis.  Ideally, sprints should end with the work remaining at 0%.  If it's not, this may indicate that the team members need to improve estimates."
         },
         {
           "term": "Burnup Chart",
           "definition": "Opposite of Burndown Chart.  Line chart trending upwards from 0% to 100% work completed on the y axis, and from the sprint start date to the sprint end date on the x axis.  Ideally, sprints should end with the work completed at 100%.  If it's not, this may indicate that the team members need to improve estimates."
-        },
-        {
-          "term": "Task Board",
-          "definition": "A board that organizes the tasks and their states for each team member, including tasks that are Pending, Work In Progress, Code Complete and In Review, and Done.  This can be achieved with a physical board and sticky notes or with a software tool."
         }
       ]
     }
