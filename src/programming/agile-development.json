@@ -1,23 +1,23 @@
 {
   "items": [
     {
-      "title": "Team Members",
+      "title": "Roles",
       "terms": [
         {
           "term": "Scrum Master",
-          "definition": "Schedules and leads the sprint meetings. Removes blockers. Keeps the team productive"
+          "definition": "Schedules and leads the sprint meetings. Removes blockers. Keeps the team productive."
         },
         {
           "term": "Product Owner",
-          "definition": "Represents the voice of the customer and the business. In charge of story prioritization"         
+          "definition": "Represents the voice of the customer and the business. In charge of story prioritization."         
         },
         {
           "term": "Software Engineer",
-          "definition": "Builds new product features. Also in charge of writing unit tests"         
+          "definition": "Builds new product features. Also in charge of writing unit tests."         
         },
         {
           "term": "Quality Engineer (QE)",
-          "definition": "In charge of quality assurance. Programmatically and manually tests new features. Files bugs when features are broken or not built to specifications"         
+          "definition": "In charge of quality assurance. Programmatically and manually tests new features. Files bugs when features are broken or not built to specifications."         
         }
       ]
     },
@@ -26,23 +26,23 @@
       "terms": [
         {
           "term": "Backlog Grooming",
-          "definition": "Occurs once per sprint. Add new user stories to the backlog, reprioritize stories, and break down stories into tasks.  Stories are scoped based on a Fibonacci scale (1, 2, 3, 5, 8), where 1 is a relatively small story and 8 is a relatively large story"
-        },
-        {
-          "term": "Sprint Planning",
-          "definition": "Occurs once per sprint. Determine which stories and tasks will be added to the next sprint"
+          "definition": "Occurs once per sprint. Add new user stories to the backlog, reprioritize stories, and break down stories into tasks.  Stories are scoped based on a Fibonacci scale (1, 2, 3, 5, 8), where 1 is a relatively small story and 8 is a relatively large story."
         },
         {
           "term": "Planning Poker",
-          "definition": "Occurs once per sprint. Follows a Sprint Planning meeting. Software engineers collectively agree on the scope for every task coming up in the next sprint. Tasks are typically scoped to a number of hours or days"
+          "definition": "Occurs once per sprint.  Software engineers collectively agree on the scope for every potential task coming up in the next sprint. Tasks are typically scoped to a number of hours or days."
+        },
+        {
+          "term": "Sprint Planning",
+          "definition": "Occurs once per sprint. Determine which stories and tasks will be added to the next sprint.  Tasks should already be scoped before attending."
         },
         {
           "term": "Daily Standup",
-          "definition": "Occurs once per day. Quick status update from each team member. Identify blockers"
+          "definition": "Occurs once per day. Quick status update from each team member. Identify blockers."
         },
         {
           "term": "Demo Day (Sprint Review)",
-          "definition": "Occurs once at the end of a sprint. Each member demos what they completed to the team"
+          "definition": "Occurs once at the end of a sprint. Each member demos what they completed to the team."
         }
       ]
     },
@@ -51,14 +51,14 @@
       "terms": [
         {
           "term": "Epic",
-          "definition": "Grand vision which could take months to complete.  For example, creating a new website.  Epics can be broken down into user stories."
+          "definition": "Grand product vision.  Epics can be broken down into user stories."
         },
         {
           "term": "Sprint",
           "definition": "Lasts for 2 - 4 weeks, and is typically made up of several user stories."
         },
         {
-          "term": "User Story",
+          "term": "Story",
           "definition": "Large unit of work that can be completed within one sprint.  Usually scoped using the Fibonacci scale (1, 2, 3, 5, 8).  Can be broken down into tasks.  Typically worked on by one or more team members."
         },
         {
@@ -67,7 +67,7 @@
         },
         {
           "term": "Subtask",
-          "definition": "Very small unit of work that can be completed within a day or less.  Worked on by one team member."
+          "definition": "Very small unit of work that can be completed within a day.  Worked on by one team member."
         }
       ]
     },
@@ -84,7 +84,7 @@
         },
         {
           "term": "Continuous Integration",
-          "definition": "Software development practice in which team members integrate their work frequently (i.e. check in their code). This ensures that issues are caught early by automated testing or by other team members"
+          "definition": "Software development practice in which team members integrate their work frequently (i.e. check in their code). This ensures that issues are caught early by automated testing or by other team members."
         },
         {
           "term": "Unit Test",
@@ -96,7 +96,7 @@
         },
         {
           "term": "Integration Test",
-          "definition": "A subset of Functional Tests. Tests to make sure that features or components are compatible with each other"
+          "definition": "A subset of Functional Tests. Tests to make sure that features or components are compatible with each other."
         },
         {
           "term": "Regression Test",
@@ -117,19 +117,19 @@
       "terms": [
         {
           "term": "Pending",
-          "definition": "The team member has not yet started the task"
+          "definition": "Has not been started."
         },
         {
           "term": "Work In Progress (WIP)",
-          "definition": "The team member has started working on the task.  Several tasks can be WIP at the same time, especially for tasks that are related to each other"
+          "definition": "Has been started.  Several tasks can be WIP at the same time, especially for tasks which are related to each other."
         },
         {
           "term": "Code Complete and In Review",
-          "definition": "Team member has completed the task, but it is in review by other team members.  If your team does not have a code review process, you can skip this state."
+          "definition": "code complete, but it is in review by other team members.  If your team does not have a code review process, you can skip this state."
         },
         {
           "term": "Done",
-          "definition": "The task is completed.  The definition of \"done\" can vary from team to team, which may depend on factors such as the existence of tests written by the engineer or QE, whether or not the task has been committed to the shared code repository, etc.  Whatever your definition of \"done\" is, make sure that the definition is clear to the entire team."
+          "definition": "Completed.  The definition of \"done\" can vary from team to team, which may depend on factors such as the existence of tests written by the engineer or QE, whether or not the task has been committed to the shared code repository, etc.  Whatever your definition of \"done\" is, make sure that the definition is clear to the entire team."
         } 
       ]
     },
