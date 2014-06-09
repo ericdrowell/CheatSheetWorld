@@ -317,8 +317,8 @@
           "description": "search recursively for pattern in dir and only search in files with .ext extension"
         },
         {
-          "command": "grep -r -i pattern dir",
-          "description": "search recursively for pattern across all files in dir"
+          "command": "grep -i pattern files",
+          "description": "case insensitive search for pattern in files"
         },
         {
           "command": "command | grep pattern",
