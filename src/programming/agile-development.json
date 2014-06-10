@@ -26,7 +26,7 @@
       "terms": [
         {
           "term": "Backlog Grooming",
-          "definition": "Occurs once per sprint. Add new user stories to the backlog, reprioritize stories, and break down stories into tasks.  Stories are scoped based on a Fibonacci scale (1, 2, 3, 5, 8), where 1 is a relatively small story and 8 is a relatively large story."
+          "definition": "Occurs once per sprint. Add new user stories to the backlog, reprioritize stories, and break down stories into tasks."
         },
         {
           "term": "Planning Poker",
@@ -59,15 +59,19 @@
         },
         {
           "term": "Story",
-          "definition": "Large unit of work that can be completed within one sprint.  Usually scoped using the Fibonacci scale (1, 2, 3, 5, 8).  Can be broken down into tasks.  Typically worked on by one or more team members."
+          "definition": "Large unit of work that can be completed within one sprint.  Stories are typically scoped based on a Fibonacci scale (1, 2, 3, 5, 8), where 1 is a relatively small story and 8 is a relatively large story.  An alternative to the Fibonacci scale is \"T-shirt\" sizing (XS, S, M, L, XL).  Can be broken down into tasks.  Typically worked on by one or more team members."
         },
         {
           "term": "Task",
-          "definition": "Small unit of work that can be completed within days or hours.  Can be broken down into subtasks.  Typically worked on by one team member."
+          "definition": "Small unit of work that can be completed within days or hours.  Can be broken down into subtasks.  Typically worked on by several team members."
         },
         {
           "term": "Subtask",
           "definition": "Very small unit of work that can be completed within a day.  Worked on by one team member."
+        },
+        {
+          "term": "Spike",
+          "definition": "A story or task for answering a question or gathering information."
         }
       ]
     },
@@ -77,10 +81,6 @@
         {
           "term": "Test Driven Development (TDD)",
           "definition": "A method of testing software in which the tests are written before the software is built."
-        },
-        {
-          "term": "Behavior Driven Development (BDD)",
-          "definition": "A method of testing software in which the tests are written after the software is built."
         },
         {
           "term": "Continuous Integration",
