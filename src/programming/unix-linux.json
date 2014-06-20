@@ -100,7 +100,7 @@
           "description": "output the contents of file as it grows, starting with the last 10 lines"
         },
         {
-          "command": "vim file",
+          "command": "car file",
           "description": "edit file"
         },
         {
