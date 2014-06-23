@@ -317,6 +317,10 @@
           "description": "search recursively for pattern in dir and only search in files with .ext extension"
         },
         {
+          "command": "grep -i pattern files",
+          "description": "case insensitive search for pattern in files"
+        },
+        {
           "command": "command | grep pattern",
           "description": "search for pattern in the output of command"
         },
