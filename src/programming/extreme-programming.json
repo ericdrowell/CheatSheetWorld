@@ -1,0 +1,105 @@
+{
+    "items": [
+        {
+            "title": "History",
+            "topics": [
+                {
+                    "topic": "Origins",
+                    "definition": "Software development in the 1990s was shaped by two major influences: internally, object-oriented programming replaced procedural programming as the programming paradigm favored by some in the industry; externally, the rise of the Internet and the dot-com boom emphasized speed-to-market and company growth as competitive business factors. Rapidly changing requirements demanded shorter product life-cycles, and were often incompatible with traditional methods of software development."
+                },
+                {
+                    "topic": "Current state",
+                    "definition": "XP generated significant interest among software communities in the late 1990s and early 2000s, seeing adoption in a number of environments radically different from its origins."
+                }
+            ]
+        },
+        {
+            "title": "Concept",
+            "topics": [
+                {
+                    "topic": "Goals",
+                    "definition": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality software more productively. XP attempts to reduce the cost of changes in requirements by having multiple short development cycles, rather than a long one. In this doctrine, changes are a natural, inescapable and desirable aspect of software-development projects, and should be planned for, instead of attempting to define a stable set of requirements. Extreme programming also introduces a number of basic values, principles and practices on top of the agile programming framework."
+                },
+                {
+                    "topic": "Activities",
+                    "definition": "XP describes four basic activities that are performed within the software development process: coding, testing, listening, and designing. Each of those activities is described below.",
+                    "sub_topics": [
+                        {
+                            "sub_topic": "Coding",
+                            "definition": "The advocates of XP argue that the only truly important product of the system development process is code – software instructions that a computer can interpret. Without code, there is no working product. Coding can also be used to figure out the most suitable solution. Coding can also help to communicate thoughts about programming problems. A programmer dealing with a complex programming problem, or finding it hard to explain the solution to fellow programmers, might code it in a simplified manner and use the code to demonstrate what he or she means. Code, say the proponents of this position, is always clear and concise and cannot be interpreted in more than one way. Other programmers can give feedback on this code by also coding their thoughts."
+                        },
+                        {
+                            "sub_topic": "Testing",
+                            "definition": "Extreme programming's approach is that if a little testing can eliminate a few flaws, a lot of testing can eliminate many more flaws."
+                        },
+                        {
+                            "sub_topic": "Listening",
+                            "definition": "Programmers must listen to what the customers need the system to do, what \"business logic\" is needed. They must understand these needs well enough to give the customer feedback about the technical aspects of how the problem might be solved, or cannot be solved. Communication between the customer and programmer is further addressed in the planning game."
+                        },
+                        {
+                            "sub_topic": "Designing",
+                            "definition": "Extreme programming's approach is that if a little testing can eliminate a few flaws, a lot of testing can eliminate many more flaws."
+                        }
+                    ]
+                },
+                {
+                    "topic": "Values",
+                    "definition": "Extreme programming initially recognized four values in 1999: communication, simplicity, feedback, and courage. A new value, respect, was added in the second edition of Extreme Programming Explained. Those five values are described below.",
+                    "sub_topics": [
+                        {
+                            "sub_topic": "Communication",
+                            "definition": "Building software systems requires communicating system requirements to the developers of the system. In formal software development methodologies, this task is accomplished through documentation. Extreme programming techniques can be viewed as methods for rapidly building and disseminating institutional knowledge among members of a development team. The goal is to give all developers a shared view of the system which matches the view held by the users of the system. To this end, extreme programming favors simple designs, common metaphors, collaboration of users and programmers, frequent verbal communication, and feedback."
+                        },
+                        {
+                            "sub_topic": "Simplicity",
+                            "definition": "Extreme programming encourages starting with the simplest solution. Extra functionality can then be added later. The difference between this approach and more conventional system development methods is the focus on designing and coding for the needs of today instead of those of tomorrow, next week, or next month. This is sometimes summed up as the \"You aren't gonna need it\" (YAGNI) approach.[8] Proponents of XP acknowledge the disadvantage that this can sometimes entail more effort tomorrow to change the system; their claim is that this is more than compensated for by the advantage of not investing in possible future requirements that might change before they become relevant. Coding and designing for uncertain future requirements implies the risk of spending resources on something that might not be needed, while perhaps delaying crucial features. Related to the \"communication\" value, simplicity in design and coding should improve the quality of communication. A simple design with very simple code could be easily understood by most programmers in the team."
+                        },
+                        {
+                            "sub_topic": "Feedback",
+                            "definition": "Feedback is closely related to communication and simplicity. Flaws in the system are easily communicated by writing a unit test that proves a certain piece of code will break. The direct feedback from the system tells programmers to recode this part. A customer is able to test the system periodically according to the functional requirements, known as user stories. To quote Kent Beck, \"Optimism is an occupational hazard of programming. Feedback is the treatment.\""
+                        },
+                        {
+                            "sub_topic": "Courage",
+                            "definition": "Several practices embody courage. One is the commandment to always design and code for today and not for tomorrow. This is an effort to avoid getting bogged down in design and requiring a lot of effort to implement anything else. Courage enables developers to feel comfortable with refactoring their code when necessary. This means reviewing the existing system and modifying it so that future changes can be implemented more easily. Another example of courage is knowing when to throw code away: courage to remove source code that is obsolete, no matter how much effort was used to create that source code. Also, courage means persistence: A programmer might be stuck on a complex problem for an entire day, then solve the problem quickly the next day, but only if they are persistent."
+                        },
+                        {
+                            "sub_topic": "Respect",
+                            "definition": "The respect value includes respect for others as well as self-respect. Programmers should never commit changes that break compilation, that make existing unit-tests fail, or that otherwise delay the work of their peers. Members respect their own work by always striving for high quality and seeking for the best design for the solution at hand through refactoring. Adopting the four earlier values leads to respect gained from others in the team. Nobody on the team should feel unappreciated or ignored. This ensures a high level of motivation and encourages loyalty toward the team and toward the goal of the project. This value is very dependent upon the other values, and is very much oriented toward people in a team."
+                        }
+                    ]
+                },
+                {
+                    "topic": "Rules",
+                    "definition": "The first version of rules for XP was published in 1999 by Don Wells at the XP website. 29 rules are given in the categories of planning, managing, designing, coding, and testing. Planning, managing and designing are called out explicitly to counter claims that XP doesn't support those activities. Another version of XP rules was proposed by Ken Auer in XP/Agile Universe 2003. He felt XP was defined by its rules, not its practices (which are subject to more variation and ambiguity). He defined two categories: \"Rules of Engagement\" which dictate the environment in which software development can take place effectively, and \"Rules of Play\" which define the minute-by-minute activities and rules within the framework of the Rules of Engagement."
+                },
+                {
+                    "topic": "Principles",
+                    "definition": "The principles that form the basis of XP are based on the values just described and are intended to foster decisions in a system development project. The principles are intended to be more concrete than the values and more easily translated to guidance in a practical situation.",
+                    "sub_topics": [
+                        {
+                            "sub_topic": "Feedback",
+                            "definition": "Extreme programming sees feedback as most useful if it is done frequently and promptly. It stresses that minimal delay between an action and its feedback is critical to learning and making changes. Unlike traditional system development methods, contact with the customer occurs in more frequent iterations. The customer has clear insight into the system that is being developed, and can give feedback and steer the development as needed. With frequent feedback from the customer, a mistaken design decision made by the developer will be noticed and corrected quickly, before the developer spends much time implementing it."
+                        },
+                        {
+                            "sub_topic": "Assuming simplicity",
+                            "definition": "This is about treating every problem as if its solution were \"extremely simple\". Traditional system development methods say to plan for the future and to code for reusability. Extreme programming rejects these ideas."
+                        },
+                        {
+                            "sub_topic": "Embracing change",
+                            "definition": "The principle of embracing change is about not working against changes but embracing them. For instance, if at one of the iterative meetings it appears that the customer's requirements have changed dramatically, programmers are to embrace this and plan the new requirements for the next iteration."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Practices"
+        },
+        {
+            "title": "Controversial aspects"
+        },
+        {
+            "title": "Criticism"
+        }
+    ]
+}

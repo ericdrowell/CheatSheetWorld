@@ -5,7 +5,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     staticHandlebars: {
       simpleTarget: {
-        files:{'dist/*/*.html':'src/*/*.hbs'}
+        files: {
+          'dist/*/*.html': 'src/*/*.hbs'
+        }
       } 
     },
     watch: {
