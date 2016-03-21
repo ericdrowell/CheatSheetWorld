@@ -1,0 +1,20 @@
+<ul id="items">
+  {{#each items}}
+    <li class="item">
+      <h2>{{title}}</h2>
+   
+      {{#each topics}}
+        <dl>
+          <dt>{{topic}}</dt>
+          <dd>{{definition}}</dd>
+          {{#each sub_topics}}
+            <dl>
+              <dt>{{sub_topic}}</dt>
+              <dd>{{definition}}</dd>
+            </dl>
+          {{/each}}
+        </dl>
+      {{/each}}
+    </li>
+  {{/each}}
+</ul>

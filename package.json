@@ -14,5 +14,12 @@
     "url": "git://github.com/ericdrowell/CheatSheetWorld.git"
   },
   "author": "Eric Rowell",
+  "contributors": [
+    {
+      "name" : "Olivier Colonna",
+      "email" : "oliviercolonna@gmail.com",
+      "url" : "https://github.com/OlivierCo"
+    }
+  ],
   "license": "MIT"
 }
