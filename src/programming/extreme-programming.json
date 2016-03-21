@@ -139,14 +139,12 @@
                 {
                     "sub_topic": "System metaphor",
                     "definition": "The system metaphor is a story that everyone - customers, programmers, and managers - can tell about how the system works. It's a naming concept for classes and methods that should make it easy for a team member to guess the functionality of a particular class/method, from its name only. For example a library system may create loan_records(class) for borrowers(class), and if the item were to become overdue it may perform a make_overdue operation on a catalogue(class). For each class or operation the functionality is obvious to the entire team."
+                },
+                {
+                    "sub_topic": "Sustainable pace",
+                    "definition": "The concept is that programmers or software developers should not work more than 40 hour weeks, and if there is overtime one week, that the next week should not include more overtime. Since the development cycles are short cycles of continuous integration, and full development (release) cycles are more frequent, the projects in XP do not follow the typical crunch time that other projects require (requiring overtime). Also, included in this concept is that people perform best and most creatively if they are rested. A key enabler to achieve sustainable pace is frequent code-merge and always executable & test covered high quality code. The constant refactoring way of working enforces team members with fresh and alert minds. The intense collaborative way of working within the team drives a need to recharge over weekends. Well-tested, continuously integrated, frequently deployed code and environments also minimize the frequency of unexpected production problems and outages, and the associated after-hours nights and weekends work that is required."
                 }
             ]
-        },
-        {
-            "title": "Controversial aspects"
-        },
-        {
-            "title": "Criticism"
         }
     ]
 }
