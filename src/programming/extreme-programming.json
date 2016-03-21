@@ -94,7 +94,7 @@
         },
         {
             "title": "Practices",
-            "definition": "Extreme programming has been described as having 12 practices."
+            "definition": "Extreme programming has been described as having 12 practices.",
             "sub_topics": [
                 {
                     "sub_topic": "Pair programming",
