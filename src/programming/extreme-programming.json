@@ -93,7 +93,54 @@
             ]
         },
         {
-            "title": "Practices"
+            "title": "Practices",
+            "definition": "Extreme programming has been described as having 12 practices."
+            "sub_topics": [
+                {
+                    "sub_topic": "Pair programming",
+                    "definition": "Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently."
+                },
+                {
+                    "sub_topic": "Planning game",
+                    "definition": "The main planning process within extreme programming is called the Planning Game. The game is a meeting that occurs once per iteration, typically once a week. The planning process is divided into two parts: Release Planning, Iteration Planning."
+                },
+                {
+                    "sub_topic": "Test-driven development",
+                    "definition": "Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards. Kent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence."
+                },
+                {
+                    "sub_topic": "Whole team",
+                    "definition": "Within XP, the \"customer\" is not the one who pays the bill, but the one who really uses the system. XP says that the customer should be on hand at all times and available for questions. For instance, the team developing a financial administration system should include a financial administrator."
+                },
+                {
+                    "sub_topic": "Continuous integration",
+                    "definition": "Continuous integration (CI) is the practice, in software engineering, of merging all developer working copies to a shared mainline several times a day. It was first named and proposed by Grady Booch in his 1991 method, although Booch did not advocate integrating several times a day. It was adopted as part of extreme programming (XP), which did advocate integrating more than once per day, perhaps as many as tens of times per day."
+                },
+                {
+                    "sub_topic": "Refactoring or design improvement",
+                    "definition": "Code refactoring is the process of restructuring existing computer code – changing the factoring – without changing its external behavior. Refactoring improves nonfunctional attributes of the software. Advantages include improved code readability and reduced complexity; these can improve source code maintainability and create a more expressive internal architecture or object model to improve extensibility."
+                },
+                {
+                    "sub_topic": "Small releases",
+                    "definition": "The delivery of the software is done via frequent releases of live functionality creating concrete value. The small releases help the customer to gain confidence in the progress of the project. This helps maintain the concept of the whole team as the customer can now come up with his suggestions on the project based on real experience."
+                },
+                {
+                    "sub_topic": "Coding standard",
+                    "definition": "Coding standard is an agreed upon set of rules that the entire development team agree to adhere to throughout the project. The standard specifies a consistent style and format for source code, within the chosen programming language, as well as various programming constructs and patterns that should be avoided in order to reduce the probability of defects. The coding standard may be a standard conventions specified by the language vendor (e.g. The Code Conventions for the Java Programming Language, recommended by Sun), or custom defined by the development team."
+                },
+                {
+                    "sub_topic": "Collective code ownership",
+                    "definition": "Collective code ownership means that everyone is responsible for all the code; this, in turn, means that everybody is allowed to change any part of the code. Pair programming contributes to this practice: by working in different pairs, all the programmers get to see all the parts of the code. A major advantage claimed for collective ownership is that it speeds up the development process, because if an error occurs in the code any programmer may fix it. By giving every programmer the right to change the code, there is risk of errors being introduced by programmers who think they know what they are doing, but do not foresee certain dependencies. Sufficiently well defined unit tests address this problem: if unforeseen dependencies create errors, then when unit tests are run, they will show failures."
+                },
+                {
+                    "sub_topic": "Simple design",
+                    "definition": "Programmers should take a \"simple is best\" approach to software design. Whenever a new piece of code is written, the author should ask themselves 'is there a simpler way to introduce the same functionality?'. If the answer is yes, the simpler course should be chosen. Refactoring should also be used, to make complex code simpler."
+                },
+                {
+                    "sub_topic": "System metaphor",
+                    "definition": "The system metaphor is a story that everyone - customers, programmers, and managers - can tell about how the system works. It's a naming concept for classes and methods that should make it easy for a team member to guess the functionality of a particular class/method, from its name only. For example a library system may create loan_records(class) for borrowers(class), and if the item were to become overdue it may perform a make_overdue operation on a catalogue(class). For each class or operation the functionality is obvious to the entire team."
+                }
+            ]
         },
         {
             "title": "Controversial aspects"
