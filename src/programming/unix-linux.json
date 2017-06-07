@@ -371,8 +371,16 @@
           "description": "move cursor to beginning of line"
         },
         {
-          "command": "ctrl+f",
+          "command": "ctrl+e",
           "description": "move cursor to end of line"
+        },
+        {
+          "command": "ctrl+f",
+          "description": "move cursor forward 1 character"
+        },
+        {
+          "command": "ctrl+b",
+          "description": "move cursor backward 1 character"
         },
         {
           "command": "alt+f",
