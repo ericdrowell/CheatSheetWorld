@@ -60,6 +60,10 @@
           "description": "remove directory dir recursively"
         },
         {
+          "command": "rm -r -f dir",
+          "description": "remove directory dir recursively and forcefully"
+        },
+        {
           "command": "cp file1 file2",
           "description": "copy file1 to file2"
         },
@@ -69,7 +73,7 @@
         },
         {
           "command": "mv file1 file2",
-          "description": "move (rename) file1 to file2"
+          "description": "move file1 to file2 if directory otherwise rename file1 to file2"
         },
         {
           "command": "ln -s file link",
@@ -101,7 +105,7 @@
         },
         {
           "command": "vim file",
-          "description": "edit file"
+          "description": "edit file with vim editor"
         },
         {
           "command": "alias name 'command'",
