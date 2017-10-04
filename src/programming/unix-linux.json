@@ -100,6 +100,10 @@
           "description": "output the contents of file as it grows, starting with the last 10 lines"
         },
         {
+          "command": "tail -F file",
+          "description": "output the contents of file as it grows, starting with the last 10 lines, tail comnand switchs to new file if existing file was rotated"
+        },
+        {
           "command": "vim file",
           "description": "edit file"
         },
@@ -315,6 +319,10 @@
         {
           "command": "grep -r pattern dir --include='*.ext",
           "description": "search recursively for pattern in dir and only search in files with .ext extension"
+        }
+        {
+          "command": "egrep -e pattern1 -e pattern2 files",
+          "description": "search mulitple patterns"
         },
         {
           "command": "command | grep pattern",
@@ -381,6 +389,23 @@
         {
           "command": "alt+b",
           "description": "move cursor backward 1 word"
+        }
+      ]
+    },
+    {
+      "title": "File Handling ",
+      "commands": [
+        {
+          "command": "sort file",
+          "description": "sort lines in file"
+        },
+        {
+          "command": "sort -n file",
+          "description": "sort according to numeric value"
+        },
+        {
+          "command": "uniq file",
+          "description": "gives uniq lines in a file"
         }
       ]
     }
