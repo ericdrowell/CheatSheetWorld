@@ -381,6 +381,18 @@
         {
           "command": "alt+b",
           "description": "move cursor backward 1 word"
+        },
+        {
+          "command": "ctrl+d",
+          "description": "log out of current session, similar to exit"
+        },
+        {
+          "command": "ctrl+c",
+          "description": "halts the current command"
+        },     
+        {
+          "command": "ctrl+z",
+          "description": "stops the current command, resume with fg in foreground or bg in background"
         }
       ]
     }
