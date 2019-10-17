@@ -383,6 +383,23 @@
           "description": "move cursor backward 1 word"
         }
       ]
+    },
+    {
+      "title": "Git",
+      "CONFIGURE TOOLING": [
+        {
+          "command": "git config --global user.name "[name]"",
+          "description": "Sets the name you want attached to your commit transactions"
+        },
+        {
+          "command": "git config --global user.email "[email address]"",
+          "description": "Sets the email you want attached to your commit transactions"
+        },
+        {
+          "command": "git config --global color.ui auto",
+          "description": "Enables helpful colorization of command line output"
+        }
+      ]
     }
   ]
 }
